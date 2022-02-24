@@ -1,9 +1,11 @@
 <template>
-  <Tutorial/>
+  <ColortonesGenerator/>
 </template>
 
 <script>
+import ColortonesGenerator from "~/components/colortones-generator.vue";
 export default {
-  name: 'IndexPage'
+    name: "IndexPage",
+    components: { ColortonesGenerator }
 }
 </script>
